@@ -18,6 +18,7 @@ do
     for j in ${name}/*.png
     do
         index=`basename "${j}" | sed 's/-.*//'`
+        echo "Converting ${j}"
         convert ${j} -resize x805 ${TMP_BUILD}/${octgn_names[${index}]}
     done
 
@@ -25,4 +26,5 @@ do
     echo "Creating ${name}.zip"
     zip -qr ../${name}.zip f44befce-4d6d-4fb9-a286-9585f36aece9
     cd ..
+    rm -fr tmp-build
 done
