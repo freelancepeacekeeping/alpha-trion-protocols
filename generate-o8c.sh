@@ -23,8 +23,8 @@ do
     done
 
     cd tmp-build
-    echo "Creating ${name}.zip"
-    zip -qr ../${name}.zip f44befce-4d6d-4fb9-a286-9585f36aece9
+    echo "Creating ${name}.o8c"
+    zip -qr ../${name}.o8c f44befce-4d6d-4fb9-a286-9585f36aece9
     cd ..
     rm -fr tmp-build
 done
