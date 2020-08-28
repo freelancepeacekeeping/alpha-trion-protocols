@@ -11,7 +11,7 @@ octgn_names[7]="316f0e8f-fffc-4dbe-b573-41e2d2ad2efd.png"
 octgn_names[8]="65797513-c97a-4102-a479-95c53e909179.png"
 octgn_names[9]="4385348a-1969-4974-980b-708e4dd59998.png"
 
-for i in Alpha-Trion-Tournament-Pack-*/
+for i in Alpha-Trion-Protocols-*/
 do
     name=`echo ${i} | sed 's/\/$//'`
     mkdir -p ${TMP_BUILD}
