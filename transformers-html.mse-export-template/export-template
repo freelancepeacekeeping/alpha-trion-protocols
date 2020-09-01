@@ -1,0 +1,84 @@
+mse version: 2.2.1
+
+short name:  Display
+full name:   Display All the Cards
+installer group: transformers/game files
+version: 2020-08-31
+
+create directory: true
+
+depends on: 
+	package: transformers.mse-game
+	version: 2020-08-01
+
+game:        transformers
+
+########################################################################################
+
+
+option field:
+	type: boolean
+	name: include set file
+	description: Should a link to the MSE set file be included in the spoiler?
+	initial: no
+
+option field:
+	type: color
+	name: background color
+	initial: rgb(255,255,255)
+	choice:
+		name: white
+		color: rgb(255,255,255)
+	choice:
+		name: black
+		color: rgb(0,0,0)
+
+option field:
+	type: color
+	name: text color
+	initial: rgb(0,0,0)
+	choice:
+		name: white
+		color: rgb(255,255,255)
+	choice:
+		name: black
+		color: rgb(0,0,0)
+
+script:
+	write_card := {
+		card_image_file := write_image_file(card,       file:"card{position(of:card,in:set)}.jpg")
+
+		 "<li class='fullcard'><img src='{card_image_file}' alt=''></li>"
+	}
+	write_cards := {
+		"<ul class='cards'>{
+		  for each card in cards do
+		     write_card(card: card)
+		}</ul>"
+	}
+
+	# the html page
+	html := "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">
+	<html lang='en'>
+	 <head>
+	  <title>{ to_html(set.Set_Name) }</title>
+	  <style type='text/css'>
+	   body \{
+	     background: {options.background_color};
+	     color:      {options.text_color};
+	   \}
+	  </style>
+	 </head>
+	 <body>
+	  <h1>{ to_html(set.Set_Name) }</h1>
+	  <div class='copyright'>{ to_html(set.Copyright)   }</div>
+	  { if options.include_set_file then
+	      "<div class='set-file'><a href='{ write_set_file(file:"set.mse-set") }'>Download set in MSE format</a></div>"
+	  }
+
+	  { write_cards(cards: cards) }
+	 </body>
+	</html>"
+	write_text_file(html, file:"index.html")
+	# make sure the urls are relative to the right directory
+	#### replace(html, match:"<[^<>]*(href|src)=\'", replace:"&{directory}/")
