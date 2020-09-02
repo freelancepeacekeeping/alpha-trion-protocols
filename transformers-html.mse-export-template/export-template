@@ -48,7 +48,7 @@ script:
 	write_card := {
 		card_image_file := write_image_file(card,       file:"card{position(of:card,in:set)}.jpg")
 
-		 "<img src='{card_image_file}' alt='{card.Short_Name()}'/>"
+		 "<img src='{card_image_file}' alt=''/>"
 	}
 	write_cards := {
 		  for each card in cards do
@@ -65,9 +65,9 @@ script:
 	     background: {options.background_color};
 	     color:      {options.text_color};
 	   \}
-           img \{
-               padding: 1em;
-           \}
+	   img \{
+	     padding: 1em;
+	   \}
 	  </style>
 	 </head>
 	 <body>
