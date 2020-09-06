@@ -71,7 +71,7 @@ function prepare() {
         return
     fi
 
-    find ${directory} -type f -name "*.png" -print0 | while IFS= read -r -d '' file; do
+    find -L ${directory} -type f -name "*.png" -print0 | while IFS= read -r -d '' file; do
         if [[ "$file" != *".1.png"* ]]
         then
             guid=${octgn[$count]}
