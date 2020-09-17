@@ -15,7 +15,7 @@
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="0" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="When your Metroplex, Autobot City defends and you flip at least [W][O][U] -> Repair 1 damage from him. He can't take more attack damage this battle than the number of Stars the attacker has." />
+<property name="Text" value="While there are no untapped enemy characters -> Each of your non-Titan characters has Pierce 3. When your Metroplex, Autobot City defends and you flip at least [W][O][U] -> Repair 1 damage from him. He can't take more attack damage this battle than the number of Stars the attacker has." />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
@@ -26,7 +26,7 @@
 <property name="DEF" value="+2" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="When one of your characters defends and you have Autobot Jazz, Special Ops on the battlefield -> Any B battle icons flipped this battle become W battle icons instead." />
+<property name="Text" value="When one of your characters defends and you have Autobot Jazz, Special Ops on the battlefield -> Any [B] battle icons flipped this battle become [W] battle icons instead." />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
@@ -47,7 +47,7 @@
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. If you began the game with only Autobots -> This gains '[TAP]: Draw 2 cards. Then scrap 2 cards from your hand. You may play an Armor or Utility. Flip this.' " />
+<property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. If you began the game with only Autobots -> This gains '[TAP] -> Draw 2 cards. Then scrap 2 cards from your hand. You may play an Armor or Utility. Flip this.' " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
@@ -66,7 +66,7 @@
 <property name="HP" value="+4" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="While your Inferno, Fearless Fighter is in bot mode -> He has Brave. When your Inferno, Fearless Fighter defends in bot mode and you flip at least WU -> Flip him to alt mode. " />
+<property name="Text" value="While your Inferno, Fearless Fighter is in bot mode -> He has Brave. When your Inferno, Fearless Fighter defends in bot mode and you flip at least [W][U] -> Flip him to alt mode. " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
@@ -127,7 +127,7 @@
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="Your starting Star limit increases by 1 if you have only Dinobots on your starting team. Your Dinobots have +2 HP. When one of your Dinobots takes non-attack damage and you have Dinobot Sludge, Mighty Stomper on the battlefield -> Repair 1 from it. " />
+<property name="Text" value="Your starting Star limit increases by 1 if you have only Dinobots on your starting team. Your Dinobots have +2 HP. When one of your Dinobots takes non-attack damage during your opponent's turn and you have Dinobot Sludge, Mighty Stomper on the battlefield -> Repair 1 from it. " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
