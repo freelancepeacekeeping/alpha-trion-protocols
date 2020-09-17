@@ -1,7 +1,7 @@
 WAVE_ID="0f4e6d7b-9e94-428c-b7cb-0aa54c0c4f3c"
 GAME_ID="f44befce-4d6d-4fb9-a286-9585f36aece9"
 
-IMAGE_DIR="tmp/ImageDatabase/${GAME_ID}/Sets/${WAVE_ID}"
+IMAGE_DIR="tmp/ImageDatabase/${GAME_ID}/Sets/${WAVE_ID}/Cards"
 GAME_DIR="tmp/GameDatabase/${GAME_ID}/sets/${WAVE_ID}"
 
 # Make directories
