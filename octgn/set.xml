@@ -38,7 +38,7 @@
 <property name="HP" value="+1" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Text" value="Your Autobot's Armors and Utilities can't be scrapped by your opponent's cards. At the end of your turn -> You may move an Upgrade from your Jetfire, Air Guardian to one of your other characters. " />
+<property name="Text" value="Your Autobot's Armors and Utilities can't be scrapped by your opponent's cards while you have Jetfire, Air Guardian on the battlefield. At the end of your turn -> You may move an Upgrade from your Jetfire, Air Guardian to one of your other characters. " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
@@ -51,7 +51,7 @@
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
-<card id="99c3d787-754a-4ef1-889a-f67f1da77c9d" name="It Works!" size="Small">
+<card id="f8301450-8212-4618-b9d6-80c9d4506fcb" name="It Works! (Flipped)" size="Small">
 <property name="Card Number" value="S05a" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
@@ -82,7 +82,7 @@
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 </card>
-<card id="af735cd7-0424-4fe9-8cae-45e3008de4b5" name="Rally" size="Small">
+<card id="40a9b73f-1022-46e6-8846-f18eec5944ea" name="Rally (Flipped)" size="Small">
 <property name="Card Number" value="S07a" />
 <property name="Type" value="Stratagem" />
 <property name="ATK" value="+1" />
