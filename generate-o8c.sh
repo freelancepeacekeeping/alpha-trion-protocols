@@ -66,14 +66,17 @@ function prepare() {
     # to leave the directory as the 0'th element of the array when it rebuilds the array below
     octgn=("$@")    
 
+    echo "LOOKING AT ${directory}."
+
     if [ ! -d ${directory} ]
     then
         return
     fi
 
-    find -L ${directory} -type f -name "*.png" -print0 | while IFS= read -r -d '' file; do
-        if [[ "$file" != *".1.png"* ]]
+    find -L ${directory} -type f -name "*.jpg" -print0 | while IFS= read -r -d '' file; do
+        if [[ "$file" != *".1.jpg"* ]]
         then
+            echo "FILE: ${file}."
             guid=${octgn[$count]}
             if [ ! "${guid}" ]
             then
@@ -82,14 +85,14 @@ function prepare() {
 
             echo "Converting ${file} to ${guid}"
 
-            alt=`echo ${file} | sed 's/\.png/.1.png/'`
+            alt=`echo ${file} | sed 's/\.jpg/.1.jpg/'`
              
             if test -f "$alt"
             then
-                convert "${alt}" -resize x805 "${TMP_BUILD}/${guid}.png"
-                convert "${file}" -resize x805 "${TMP_BUILD}/${guid}.bot.png"
+                convert "${alt}" -resize x805 "${TMP_BUILD}/${guid}.jpg"
+                convert "${file}" -resize x805 "${TMP_BUILD}/${guid}.bot.jpg"
             else
-                convert "${file}" -resize x805 "${TMP_BUILD}/${guid}.png"
+                convert "${file}" -resize x805 "${TMP_BUILD}/${guid}.jpg"
             fi
 
             ((count=count+1))
@@ -100,11 +103,11 @@ function prepare() {
 mkdir -p ${TMP_BUILD}
 rm -f ${NAME}.o8c
 
-prepare 'Stratagems' "${Stratagem[@]}"
-prepare 'Large' "${LargeCharacter[@]}"
-prepare 'Small' "${SmallCharacter[@]}"
-prepare 'Extra-Large' "${ExtraLargeCharacter[@]}"
-prepare 'Battle-Cards/OU' "${OrangeBlueBattleCard[@]}"
+prepare "${NAME}/Stratagems" "${Stratagem[@]}"
+prepare "${NAME}/Large" "${LargeCharacter[@]}"
+prepare "${NAME}/Small" "${SmallCharacter[@]}"
+prepare "${NAME}/Extra-Large" "${ExtraLargeCharacter[@]}"
+prepare "${NAME}/Battle-Cards/OU" "${OrangeBlueBattleCard[@]}"
 
 cd tmp-build
 echo "Creating ${NAME}.o8c"
