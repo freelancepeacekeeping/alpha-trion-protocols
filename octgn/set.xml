@@ -1,7 +1,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Alpha Trion Protocols - Set 1" id="0f4e6d7b-9e94-428c-b7cb-0aa54c0c4f3c" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
 <cards>
 <card id="ece9d083-8f2b-49f2-a96e-0bc43f01d7a2" name="Anti-Air Battery" size="Small">
-<property name="Card Number" value="S01" />
+<property name="Card Number" value="X:S01" />
 <property name="Type" value="Stratagem" />
 <property name="HP" value="+3" />
 <property name="Stars" value="2" />
@@ -11,7 +11,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="01942d3f-076e-41e4-a06c-b8c4a7f7911a" name="Heed the Call" size="Small">
-<property name="Card Number" value="S02" />
+<property name="Card Number" value="X:S02" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="0" />
 <property name="Faction" value="Autobot" />
@@ -20,7 +20,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="24e6a127-1784-4876-a99e-a321362dd6c8" name="Here's the Thing" size="Small">
-<property name="Card Number" value="S03" />
+<property name="Card Number" value="X:S03" />
 <property name="Type" value="Stratagem" />
 <property name="ATK" value="+1" />
 <property name="DEF" value="+2" />
@@ -31,7 +31,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="a48f9bd5-7fa9-44e6-91ab-b3e9b999233e" name="I Don't Believe in Destiny" size="Small">
-<property name="Card Number" value="S04" />
+<property name="Card Number" value="X:S04" />
 <property name="Type" value="Stratagem" />
 <property name="ATK" value="+1" />
 <property name="DEF" value="+1" />
@@ -43,7 +43,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="99c3d787-754a-4ef1-889a-f67f1da77c9d" name="It Works!" size="Small">
-<property name="Card Number" value="S05" />
+<property name="Card Number" value="X:S05" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
@@ -52,7 +52,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="f8301450-8212-4618-b9d6-80c9d4506fcb" name="It Works! (Flipped)" size="Small">
-<property name="Card Number" value="S05a" />
+<property name="Card Number" value="X:S05a" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
@@ -61,7 +61,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="6b240366-21fe-4dfe-bd4a-d1c3d3d114a9" name="Protection" size="Small">
-<property name="Card Number" value="S06" />
+<property name="Card Number" value="X:S06" />
 <property name="Type" value="Stratagem" />
 <property name="HP" value="+4" />
 <property name="Stars" value="1" />
@@ -71,7 +71,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="af735cd7-0424-4fe9-8cae-45e3008de4b5" name="Rally" size="Small">
-<property name="Card Number" value="S07" />
+<property name="Card Number" value="X:S07" />
 <property name="Type" value="Stratagem" />
 <property name="ATK" value="+1" />
 <property name="DEF" value="+1" />
@@ -83,7 +83,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="40a9b73f-1022-46e6-8846-f18eec5944ea" name="Rally (Flipped)" size="Small">
-<property name="Card Number" value="S07a" />
+<property name="Card Number" value="X:S07a" />
 <property name="Type" value="Stratagem" />
 <property name="ATK" value="+1" />
 <property name="DEF" value="+1" />
@@ -95,7 +95,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="d0f89435-2830-4a7b-80b5-304ea0e5250d" name="Rampage" size="Small">
-<property name="Card Number" value="S08" />
+<property name="Card Number" value="X:S08" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
@@ -104,7 +104,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="6dca576e-4289-4ea5-9cfb-b7fa75b8f9ad" name="Straxus Lives!" size="Small">
-<property name="Card Number" value="S10" />
+<property name="Card Number" value="X:S10" />
 <property name="Type" value="Stratagem" />
 <property name="HP" value="+4" />
 <property name="Stars" value="1" />
@@ -114,7 +114,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="cc58854a-e017-40dc-af80-20331cf36178" name="Such Heroic Nonsense" size="Small">
-<property name="Card Number" value="S10" />
+<property name="Card Number" value="X:S10" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Decepticon" />
@@ -123,7 +123,7 @@
 <property name="Draft Type" value="Stratagem" />
 </card>
 <card id="6f80778e-c4aa-402e-9661-696a2ddf2f8e" name="We Fix!" size="Small">
-<property name="Card Number" value="S11" />
+<property name="Card Number" value="X:S11" />
 <property name="Type" value="Stratagem" />
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
