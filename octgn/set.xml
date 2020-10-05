@@ -50,15 +50,10 @@
 <property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. If you began the game with only Autobots -> This gains '[TAP] -> Draw 2 cards. Then scrap 2 cards from your hand. You may play an Armor or Utility. Flip this.' " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
-</card>
-<card id="f8301450-8212-4618-b9d6-80c9d4506fcb" name="It Works! (Flipped)" size="Small">
-<property name="Card Number" value="X:S05a" />
-<property name="Type" value="Stratagem" />
-<property name="Stars" value="1" />
-<property name="Faction" value="Autobot" />
+<alternate name="It Works!" size="Small">
+<property name="Type" value="Stratagem - back" />
 <property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. "/>
-<property name="Rarity" value="Rare" />
-<property name="Draft Type" value="Stratagem" />
+</alternate>
 </card>
 <card id="6b240366-21fe-4dfe-bd4a-d1c3d3d114a9" name="Protection" size="Small">
 <property name="Card Number" value="X:S06" />
@@ -81,18 +76,10 @@
 <property name="Text" value="When your Bumblebee, Legendary Warrior is tapped and takes attack damage -> Repair 3 damage from him and untap him. Flip this. " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
-</card>
-<card id="40a9b73f-1022-46e6-8846-f18eec5944ea" name="Rally (Flipped)" size="Small">
-<property name="Card Number" value="X:S07a" />
-<property name="Type" value="Stratagem" />
-<property name="ATK" value="+1" />
-<property name="DEF" value="+1" />
-<property name="HP" value="+1" />
-<property name="Stars" value="1" />
-<property name="Faction" value="Autobot" />
+<alternate name="Rally" size="Small">
+<property name="Type" value="Stratagem - back" />
 <property name="Text" value="" />
-<property name="Rarity" value="Rare" />
-<property name="Draft Type" value="Stratagem" />
+</alternate>
 </card>
 <card id="d0f89435-2830-4a7b-80b5-304ea0e5250d" name="Rampage" size="Small">
 <property name="Card Number" value="X:S08" />
