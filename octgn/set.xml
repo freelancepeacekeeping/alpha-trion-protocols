@@ -50,7 +50,7 @@
 <property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. If you began the game with only Autobots -> This gains '[TAP] -> Draw 2 cards. Then scrap 2 cards from your hand. You may play an Armor or Utility. Flip this.' " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
-<alternate name="It Works!" size="Small">
+<alternate name="It Works!" size="Small" type="back">
 <property name="Type" value="Stratagem - back" />
 <property name="Text" value="When your Wheeljack, Weapons Inventor attacks while upgraded with a Utility -> Flip him to another mode after this battle. "/>
 </alternate>
@@ -76,7 +76,7 @@
 <property name="Text" value="When your Bumblebee, Legendary Warrior is tapped and takes attack damage -> Repair 3 damage from him and untap him. Flip this. " />
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
-<alternate name="Rally" size="Small">
+<alternate name="Rally" size="Small" type="back">
 <property name="Type" value="Stratagem - back" />
 <property name="Text" value="" />
 </alternate>
