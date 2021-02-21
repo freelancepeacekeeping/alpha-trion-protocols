@@ -1,0 +1,345 @@
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Alpha Trion Protocols - Set 2" id="13c500c9-ebb5-45cc-9ca4-2389e8d2e978" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
+<cards>
+
+<card id="86b0000a-1f0c-4b25-a27a-80cfc19ae512" name="Bow Before Me" size="Small">
+<property name="Card Number" value="X:S01"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="1" />
+<property name="Text" value="While your Lord Megatron, Conqueror of Cybertron has a Decepticon Upgrade -> He has +1 ATK and +1 DEF. When one of your Decepticons flips from Alt mode to Bot mode -> Each player scraps the top 3 cards of their deck. " />
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+<card id="ddf09d24-67c3-4389-9c59-ada249ece7ab" name="Coordinated Aerial Tactics" size="Small">
+<property name="Card Number" value="X:S02"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="1" />
+<property name="Text" value="Each of your Aerialbots has Bold 1. When you combine into Superion, Sky Protector -> Flip this. At the end of your turn, if you have 5 Aerialbot characters in Bot Mode on the battlefield and/or in your KO area -> You may combine them into Superion, Sky Protector. " />
+<alternate name="Coordinated Aerial Tactics" size="Small" type="back">
+<property name="Type" value="Stratagem - back" />
+<property name="HP" value="4" />
+<property name="ATK" value="1" />
+<property name="Text" value="This Stratagem now applies to your Superion, Sky Protector. The first time you would do non-attack damage to exactly one enemy during your turn -> Instead do that much damage plus 1. At the start of your turn, if your Superion, Sky Protector has at least 30 damage -> Draw a card. "/>
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+<card id="eaa45f8d-39f2-4d6d-b210-040c3adfdeb6" name="Drop 'Em" size="Small">
+<property name="Card Number" value="X:S03"/>
+<property name="Type" value="Stratagem" />
+<property name="HP" value="1" />
+<property name="Stars" value="1" />
+<property name="Text" value="Your deck can have up to 1 extra Star of cards. While your Private Arcee, Special Ops Warrior has an Armor -> She has +1 ATK. "/>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+<card id="99194038-c0a3-48fa-b5a4-fb61f3bfc0fe" name="High-Speed Chase" size="Small">
+<property name="Card Number" value="X:S04"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="1" />
+<property name="Text" value="Each of your Stunticons has Bold 1. When you combine into Menasor, Menacing Colossus -> Flip this. At the end of your turn, if you have 5 Stunticon characters in Bot Mode on the battlefield and/or in your KO area -> You may combine them into Menasor, Menacing Colossus. " />
+<alternate name="High-Speed Chase" size="Small" type="back">
+<property name="Type" value="Stratagem - back" />
+<property name="HP" value="5" />
+<property name="ATK" value="1" />
+<property name="Text" value="This Stratagem now applies to your Menasor, Menacing Colossus. When you play your second Action during your turn -> Repair 1 damage from Menasor, Menacing Colossus. When your Menasor, Menacing Colossus has at least 30 damage -> He becomes Sturdy. "/>
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+<card id="50028a33-570d-4e85-a81d-cdf2e3ed030b" name="Master Builder" size="Small">
+<property name="Card Number" value="X:S05"/>
+<property name="Type" value="Stratagem" />
+<property name="HP" value="3" />
+<property name="Text" value="Your Grapple, Autobot Architect has Bold 1 and Tough 1. " />
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+<card id="1ecbe86f-4694-417f-ab8f-fcdcac9291f9" name="Whatever It Takes" size="Small">
+<property name="Card Number" value="X:S06"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="1" />
+<property name="Text" value="Your deck can have up to 1 extra Star of cards. Your Sergeant Barricade, Infantry Enforcer has Tough 1. " />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+
+<card id="2755ed4a-06b9-4d11-8a17-e0b2dcab26e4" name="Aerial Defense Armaments" size="Small">
+<property name="Card Number" value="X:1"/>
+<property name="Type" value="Upgrade - Utility" />
+<property name="Stars" value="1" />
+<property name="White Pips" value="1" />
+<property name="Blue Pips" value="1" />
+<property name="ATK" value="1" />
+<property name="Text" value="Put on Autobots only. Tough 1. When you put this on an Aerialbot -> Move 1 damage from the upgraded character to an enemy. Then, repair 1 damage from your Superion, Sky Protector. " />
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="1161a64e-7625-4c63-9587-a80f2f11a264" name="Bullseye Aegis" size="Small">
+<property name="Card Number" value="X:2"/>
+<property name="Type" value="Upgrade - Armor" />
+<property name="Stars" value="1" />
+<property name="Orange Pips" value="2" />
+<property name="DEF" value="1" />
+<property name="Text" value="Bold 1. Brave." />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="666d38c1-b845-4a15-9d6c-a85537242e94" name="Catch Off-Guard" size="Small">
+<property name="Card Number" value="X:3"/>
+<property name="Type" value="Action" />
+<property name="Blue Pips" value="1" />
+<property name="Text" value="Put an enemy Upgrade on the bottom of its owner's deck. " />
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="a2ac87ce-e36b-40db-9b8d-78a8474a1a10" name="Hands-Free Artillery" size="Small">
+<property name="Card Number" value="X:4"/>
+<property name="Type" value="Upgrade - Weapon" />
+<property name="Stars" value="1" />
+<property name="Blue Pips" value="2" />
+<property name="ATK" value="2" />
+<property name="Text" value="Pierce 1, Tough 1. " />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="ae0fdda6-6760-4ab1-bd67-dda59a45e6d1" name="Interrogation" size="Small">
+<property name="Card Number" value="X:5"/>
+<property name="Type" value="Action" />
+<property name="Black Pips" value="1" />
+<property name="Text" value="Do 1 damage to one of your characters -> Your opponent reveals their hand and you scrap a card from it that has one or fewer combat icons. " />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="224077d4-db14-4a3b-960c-b8057fc65923" name="Ionizer Sword" size="Small">
+<property name="Card Number" value="X:6"/>
+<property name="Type" value="Upgrade - Weapon" />
+<property name="Stars" value="1" />
+<property name="Orange Pips" value="1" />
+<property name="Blue Pips" value="1" />
+<property name="ATK" value="3" />
+<property name="Text" value="Put on Decepticons only. When your Menasor, Menacing Colossus attacks, and you flip at least [O][U] -> Draw a card. " />
+<property name="Rarity" value="Uncommon" />
+</card>
+<card id="18c0ee15-dca4-4921-a692-45626057858b" name="Lock-On Lasers" size="Small">
+<property name="Card Number" value="X:7"/>
+<property name="Type" value="Upgrade - Weapon" />
+<property name="White Pips" value="1" />
+<property name="Green Pips" value="1" />
+<property name="ATK" value="1" />
+<property name="Text" value="Pierce 1. When the upgraded character attacks an enemy with 17 Stars or more -> It gets an additional +2 ATK and Pierce 2 this battle. " />
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="633a7dc0-661e-4480-aa99-6a602e53daa2" name="Spotlights" size="Small">
+<property name="Card Number" value="X:8"/>
+<property name="Type" value="Upgrade - Utility" />
+<property name="Stars" value="1" />
+<property name="Orange Pips" value="1" />
+<property name="Blue Pips" value="1" />
+<property name="ATK" value="1" />
+<property name="DEF" value="1" />
+<property name="Text" value="Enemies can't use Stealth. " />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="63e3ea4d-17cf-4b4d-a5dd-7ddce9b413a7" name="Survive" size="Small">
+<property name="Card Number" value="X:9"/>
+<property name="Type" value="Secret Action" />
+<property name="Blue Pips" value="1" />
+<property name="Text" value="Reveal -> When one of your characters would take damage from an opponent's card. When Revealed -> That character becomes Sturdy until end of turn. " />
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+<card id="1d9d5c4c-5f1f-4530-afc0-d9d12db58ca0" name="Take By Surprise" size="Small">
+<property name="Card Number" value="X:10"/>
+<property name="Type" value="Action" />
+<property name="Orange Pips" value="1" />
+<property name="Text" value="Do 1 damage to one of your characters -> Put an enemy Upgrade on top of its owner's deck. "/>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+
+<card id="5b4eb468-da8f-4792-8765-ef23eb6d3ddc" name="Dirge - Feared Fighter" size="Large">
+<property name="Card Number" value="X:T01"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="7" />
+<property name="ATK" value="5" />
+<property name="HP" value="12" />
+<property name="DEF" value="0" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Seeker,Plane,Melee" />
+<property name="Text" value="Your starting Star limit increases by 1 if you have only Seekers on your starting team. This can't return to the battlefield from your KO area. Revenge -> Add up to one battle card with no battle icons from your scrap pile to your hand." />
+<alternate type="bot" name="Dirge - Feared Fighter" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Seeker,Melee" />
+<property name="Text" value="Brave. This can't return to the battlefield from your KO area. When you flip to this mode -> Do 1 damage to one of your Seekers and 1 damage to an enemy." />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="13a0ac22-00da-4fb5-9acb-33ee69db81f3" name="Drift - Noble Warrior" size="Large">
+<property name="Card Number" value="X:T02"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="7" />
+<property name="ATK" value="4" />
+<property name="HP" value="13" />
+<property name="DEF" value="0" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Car,Melee" />
+<property name="Text" value="Stealth against Decepticons. At the start of the game -> Do 1 damage to this. Then, do 1 additional damage to this if you had a Decepticon on your starting team." />
+<alternate type="bot" name="Drift - Noble Warrior" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Melee" />
+<property name="Text" value="You may play Master Sword on this character in an empty Weapon slot. When you flip to this mode -> You may do 2 damage to this. If you do, this can attack untapped enemy Decepticons as though they were tapped this turn." />
+</alternate>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="ad66c2d7-69a0-4623-990e-f8bf124b4c9b" name="Huffer - Construction Engineer" size="Large">
+<property name="Card Number" value="X:T03"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="5" />
+<property name="ATK" value="4" />
+<property name="HP" value="9" />
+<property name="DEF" value="1" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Truck,Ranged" />
+<property name="Text" value="Sturdy" />
+<alternate type="bot" name="Huffer - Construction Engineer" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Ranged" />
+<property name="Text" value="When you flip to this mode -> Draw a card. Then, scrap a card from your hand. " />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="15b3d1b5-275e-4a12-bc87-b94f5e9aac38" name="Motormaster - Stunticon Don" size="Large">
+<property name="Card Number" value="X:T04"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="8" />
+<property name="ATK" value="3" />
+<property name="HP" value="12" />
+<property name="DEF" value="3" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Leader,Stunticon,Truck,Melee" />
+<property name="Text" value="When the game begins -> Choose a different Stunticon character you own from outside the game that isn't Motormaster, Stunticon Leader. Put it into your KO area in alt mode. Your other Decepticons can't take non-attack damage from your opponent's cards." />
+<alternate type="bot" name="Motormaster - Stunticon Don" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Leader,Stunticon,Melee" />
+<property name="Text" value="Your other Decepticons can't take non-attack damage from your opponent's cards. When one of your Stunticons with 5 Stars or fewer attacks and you flip at least [O][U] -> You may flip that character to another mode." />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="71e35a98-2f21-441d-b77a-ed5e6d4582dc" name="Raider Overkill - Spy Patrol - Havoc Wreaker" size="Small">
+<property name="Card Number" value="X:T05"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="7" />
+<property name="ATK" value="0" />
+<property name="HP" value="11" />
+<property name="DEF" value="3" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Spy Patrol" />
+<property name="Text" value="Revenge -> Draw 2 cards." />
+<alternate type="bot" name="Raider Overkill - Spy Patrol - Havoc Wreaker" size="Small">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Spy Patrol,Beast,Melee" />
+<property name="Text" value="Tough 2. Revenge -> Put an enemy Upgrade on the top of its owner's deck." />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="bcb82478-e7be-454a-9516-bcca28409042" name="Ramjet - Hellish Hooligan" size="Large">
+<property name="Card Number" value="X:T06"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="13" />
+<property name="ATK" value="6" />
+<property name="HP" value="15" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Seeker,Plane,Melee" />
+<property name="Text" value="This can't flip to another mode except with his own ability. At the start of your turn, if this is your only character on the battlefield -> Flip this. When this attacks -> Move a damage from one of your Seekers to an enemy." />
+<alternate type="bot" name="Ramjet - Hellish Hooligan" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="7" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Seeker,Melee" />
+<property name="Text" value="This can't flip to another mode. When this defends -> Do 1 damage to the attacking enemy after the battle. When you flip to this mode -> You may play an Upgrade from your scrap pile." />
+</alternate>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="a3cac2dc-20d5-4afd-ab91-888699926438" name="Silverbolt - Aerialbot Commander" size="Large">
+<property name="Card Number" value="X:T07"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="8" />
+<property name="ATK" value="5" />
+<property name="HP" value="12" />
+<property name="DEF" value="1" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Leader,Aerialbot,Plane,Ranged" />
+<property name="Text" value="When the game begins -> Choose a different Aerialbot character you own from outside the game that isn't Silverbolt, Aerialbot Leader. Put it into your KO area in alt mode." />
+<alternate type="bot" name="Silverbolt - Aerialbot Commander" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Leader,Aerialbot,Ranged" />
+<property name="Text" value="Each of your Aerialbots has Pierce 1. When one of your Aerialbots with 5 Stars or fewer attacks and you flip at least [B][U] -> You may flip that character to another mode." />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="7160e0d7-dfac-4b29-a8ff-ee7809355a60" name="Soundwave - Intelligence Coordinator" size="Large">
+<property name="Card Number" value="X:T08"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="11" />
+<property name="ATK" value="4" />
+<property name="HP" value="16" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Leader,Truck,Specialist" />
+<property name="Text" value="Focus 1. When you flip to this mode -> You may scrap a card from your hand. If you do, use the Revenge ability of a Spy Patrol or Mini-Cassette in your KO area." />
+<alternate type="bot" name="Soundwave - Intelligence Coordinator" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Leader,Specialist" />
+<property name="Text" value="For each different Spy Patrol and/or Mini-Cassette in your KO area -> This has +1 ATK and +1 DEF up to +3 ATK and +3 DEF. When this attacks -> Draw a card. Choose a different Spy Patrol or Mini-Cassette you own from outside the game. Put it into your KO area in either alt or bot mode." />
+</alternate>
+<property name="Rarity" value="Super Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="68d486f4-dcef-4960-91d9-4794a8e6200e" name="Thrust - Boisterous Brawler" size="Large">
+<property name="Card Number" value="X:T09"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="7" />
+<property name="ATK" value="4" />
+<property name="HP" value="10" />
+<property name="DEF" value="1" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Seeker,Plane,Melee" />
+<property name="Text" value="Your starting Star limit increases by 1 if you have only Seekers on your starting team. Brave." />
+<alternate type="bot" name="Thrust - Boisterous Brawler" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Seeker,Melee" />
+<property name="Text" value="Each of your other Seekers has Bold 1. Revenge -> You may play an Upgrade from your scrap pile on one of your Planes or Seekers." />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
+</card>
+
+</cards>
+</set>

@@ -1,0 +1,119 @@
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Alpha Trion Protocols - Set 3" id="20da88cf-cb89-4b7a-b2b7-1b5bfac64852" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
+  <cards>
+
+
+<card id="28cceec1-6e1b-49c5-a83a-1ec0613ad110" name="Fire and Fury" size="Small">
+<property name="Card Number" value="X:S01"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="1" />
+<property name="Faction" value="Decepticon" />
+<property name="HP" value="3" />
+<property name="Text" value="Your deck can have up to 1 extra Star of cards. Each of your Firecons has Bold 1 and Tough 1. "/>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Stratagem" />
+</card>
+
+<card id="69a134ad-0306-440f-b9ca-3e4583906c48" name="Unbreachable" size="Small">
+<property name="Card Number" value="X:S02"/>
+<property name="Type" value="Stratagem" />
+<property name="Stars" value="2" />
+<property name="Faction" value="Autobot" />
+<property name="Text" value="Your Omega Supreme (Base), Transport City Defender has Brave and becomes Sturdy. When you combine into Captain Omega Supreme, Transport City Defender -> Flip this. "/>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Stratagem" />
+<alternate name="Unbreachable" size="Small" type="back">
+    <property name="Text" value="This stratagem now applies to your Captain Omega Supreme, Transport City Defender. The first time your Captain Omega Supreme, Transport City Defender battles each turn -> Draw a card. "/>
+<property name="HP" value="2" />
+</alternate>
+</card>
+
+
+
+<card id="9f4fd4d6-6fc8-41aa-a723-23a45c8e2060" name="Armored Assault" size="Small">
+<property name="Card Number" value="X:1"/>
+<property name="Type" value="Action" />
+<property name="Orange Pips" value="1" />
+<property name="Text" value="One of your characters get +2 ATK until end of turn. If it has an Armor, it also gets Bold 1 until end of turn. "/>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="25a1d894-8b25-4ffa-b94b-cdb8d45f2762" name="Aura of Dominance" size="Small">
+<property name="Card Number" value="X:2"/>
+<property name="Type" value="Upgrade - Utility" />
+<property name="White Pips" value="1" />
+<property name="Stars" value="1" />
+<property name="HP" value="2" />
+<property name="Text" value="Bold 1, Tough 1. When you put this on a character that has 11 Stars or more -> Your opponent scraps a card from their hand. Then, your opponent chooses one of their Upgrades and scraps it. " />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="a5404200-60bd-43ce-856-27ad8203c59c" name="Despite Any Difficulty" size="Small">
+<property name="Card Number" value="X:3"/>
+<property name="Type" value="Secret Action" />
+<property name="Black Pips" value="1" />
+<property name="Blue Pips" value="1" />
+<property name="Text" value="Reveal -> When one of your characters defends. When Revealed -> The defender gets +1 DEF until end of battle for each different color among battle icons you flip this battle, up to +4 DEF. "/>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="a36e3063-98b9-43a0-a882-f60151bcd19c" name="Dogfight" size="Small">
+<property name="Card Number" value="X:4"/>
+<property name="Type" value="Action" />
+<property name="Text" value="Move 1 damage from each of your Seekers to an enemy. If you have a Melee character on the battlefield -> Scrap an enemy Weapon. "/>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="4f2ea278-06f5-4400-9156-64bf8d38f62c" name="Howling Howitzer" size="Small">
+<property name="Card Number" value="X:6"/>
+<property name="Type" value="Upgrade - Weapon" />
+<property name="Orange Pips" value="1" />
+<property name="Black Pips" value="1" />
+<property name="ATK" value="2" />
+<property name="Text" value="Pierce 1" />
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="30cccee5-4a90-47a9-9e01-a1391e16ad2c" name="Harpoon Gun" size="Small">
+<property name="Card Number" value="X:5"/>
+<property name="Type" value="Upgrade - Weapon" />
+<property name="Orange Pips" value="1" />
+<property name="ATK" value="1" />
+<property name="Text" value="Bold 1, Pierce 1. When the upgraded character attacks, if it is a Wrecker -> It gets +1 ATK until end of turn. When the upgraded character attacks, if it is a Leader -> It gets +1 ATK until end of turn. " />
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="85025c05-b096-4b26-988d-e54e629a47b1" name="Never a Dull Moment" size="Small">
+<property name="Card Number" value="X:7"/>
+<property name="Type" value="Action" />
+<property name="Orange Pips" value="1" />
+<property name="Text" value="You may do 1 damage to one of your Wreckers -> If you do, return a face-down enemy Secret Action to its owner's hand. If you have a Specialist on the battlefield -> Your opponent scraps a card from their hand. "/>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="db3c04d4-3c2b-469f-b3b1-82b8f1717360" name="Outflank" size="Small">
+<property name="Card Number" value="X:8"/>
+<property name="Type" value="Action" />
+<property name="Blue Pips" value="1" />
+<property name="Text" value="Do 1 damage to a character -> It gets +2 ATK until end of turn. Then, if a Specialist was damaged this way, its owner draws a card. "/>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+<card id="5392ff37-91b6-42c4-96fc-ed798ad2cf0c" name="Valiant Effort" size="Small">
+<property name="Card Number" value="X:9"/>
+<property name="Type" value="Action" />
+<property name="White Pips" value="1" />
+<property name="Text" value="One of your Leaders gets +3 ATK until end of turn. If you have a Ranged character on the battlefield -> Do 1 damage to an enemy. "/>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Battle Card" />
+</card>
+
+  </cards>
+</set>
