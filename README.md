@@ -1,5 +1,7 @@
-OCTGN files for the VS Alpha Trion Protocol Stratagems.
+OCTGN files for the Alpha Trion Protocols custom cards for Transformers TCG.
 
-See the Releases section for both Image Packs (2 of them sadly) and a zip that can be unpacked onto an OCTGN install.
+See the Releases section for the latest files.
 
-You can also see full images of the cards in https://github.com/freelancepeacekeeping/alpha-trion-protocols/tree/master/docs/images directory.
+To install, extract the latest zip file over the top of your OCTGN Data directory. Typically you would extract the zip onto C:\Users\USERNAME\AppData\Local\Programs\OCTGN\Data, where USERNAME is the login of your user on your Windows computer. Your opponent will also need to extract these files onto their OCTGN install.
+
+Note that if the Transformers TCG game module should be updated, it will remove the set.xml file for each ATP wave (found in the GameDatabase). Reextract the files again after an update happens to put the set.xml files back.
