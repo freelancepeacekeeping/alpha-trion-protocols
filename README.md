@@ -6,4 +6,4 @@ To install, extract the latest zip file over the top of your OCTGN Data director
 
 Note that if the Transformers TCG game module should be updated, it will remove the set.xml file for each ATP wave (found in the GameDatabase). Reextract the files again after an update happens to put the set.xml files back.
 
-The latest version is downloadable at https://github.com/freelancepeacekeeping/alpha-trion-protocols/releases/tag/2.0
+The latest version is downloadable at https://github.com/freelancepeacekeeping/alpha-trion-protocols/releases/tag/3.0
