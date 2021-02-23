@@ -22,6 +22,7 @@
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Stratagem" />
 <alternate name="Unbreachable" size="Small" type="back">
+    <property name="Type" value="Stratagem - back" />
     <property name="Text" value="This stratagem now applies to your Captain Omega Supreme, Transport City Defender. The first time your Captain Omega Supreme, Transport City Defender battles each turn -> Draw a card. "/>
 <property name="HP" value="2" />
 </alternate>
@@ -49,7 +50,7 @@
 <property name="Draft Type" value="Battle Card" />
 </card>
 
-<card id="a5404200-60bd-43ce-856-27ad8203c59c" name="Despite Any Difficulty" size="Small">
+<card id="a5404200-60bd-43ce-856f-27ad8203c59c" name="Despite Any Difficulty" size="Small">
 <property name="Card Number" value="X:3"/>
 <property name="Type" value="Secret Action" />
 <property name="Black Pips" value="1" />
@@ -62,6 +63,7 @@
 <card id="a36e3063-98b9-43a0-a882-f60151bcd19c" name="Dogfight" size="Small">
 <property name="Card Number" value="X:4"/>
 <property name="Type" value="Action" />
+<property name="Faction" value="Decepticon" />
 <property name="Text" value="Move 1 damage from each of your Seekers to an enemy. If you have a Melee character on the battlefield -> Scrap an enemy Weapon. "/>
 <property name="Rarity" value="Uncommon" />
 <property name="Draft Type" value="Battle Card" />
@@ -82,6 +84,7 @@
 <property name="Card Number" value="X:5"/>
 <property name="Type" value="Upgrade - Weapon" />
 <property name="Orange Pips" value="1" />
+<property name="Faction" value="Autobot" />
 <property name="ATK" value="1" />
 <property name="Text" value="Bold 1, Pierce 1. When the upgraded character attacks, if it is a Wrecker -> It gets +1 ATK until end of turn. When the upgraded character attacks, if it is a Leader -> It gets +1 ATK until end of turn. " />
 <property name="Rarity" value="Uncommon" />
@@ -92,6 +95,7 @@
 <property name="Card Number" value="X:7"/>
 <property name="Type" value="Action" />
 <property name="Orange Pips" value="1" />
+<property name="Faction" value="Autobot" />
 <property name="Text" value="You may do 1 damage to one of your Wreckers -> If you do, return a face-down enemy Secret Action to its owner's hand. If you have a Specialist on the battlefield -> Your opponent scraps a card from their hand. "/>
 <property name="Rarity" value="Common" />
 <property name="Draft Type" value="Battle Card" />
@@ -113,6 +117,231 @@
 <property name="Text" value="One of your Leaders gets +3 ATK until end of turn. If you have a Ranged character on the battlefield -> Do 1 damage to an enemy. "/>
 <property name="Rarity" value="Rare" />
 <property name="Draft Type" value="Battle Card" />
+</card>
+
+
+<card id="3aa3664b-887e-430d-bdc0-af9b6c230058" name="Banzaitron - Devious Orchestrator" size="Large">
+<property name="Card Number" value="X:T01"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="8" />
+<property name="ATK" value="4" />
+<property name="HP" value="13" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Tank,Specialist" />
+<property name="Text" value="This is a Leader if you began the game with no Autobots on your starting team. Tough 1. When you flip to this mode -> If this has an Armor, look at your opponent's hand. Then, you may play a Secret Action. " />
+<alternate type="bot" name="Banzaitron - Devious Orchestrator" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Melee" />
+<property name="Text" value="This is a Leader if you began the game with no Autobots on your starting team. Bold 1" />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+
+<card id="d7b48fdd-22b4-4a1b-a75c-d4145ebc246a" name="Highbrow - Malware Brigadier" size="Large">
+<property name="Card Number" value="X:T02"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="6" />
+<property name="ATK" value="3" />
+<property name="HP" value="11" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Helicopter,Specialist" />
+<property name="Text" value="Pierce 2. When you flip to this mode -> Return an Upgrade on a character to its owner's hand. " />
+<alternate type="bot" name="Highbrow - Malware Brigadier" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Specialist" />
+<property name="Text" value="Focus 1. Each character with the highest number of Stars on your team has +1 DEF. " />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+
+<card id="3c75569c-0a87-4508-a90d-8160e1e741f0" name="Impactor - Unrelenting Veteran" size="Large">
+<property name="Card Number" value="X:T03"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="9" />
+<property name="ATK" value="4" />
+<property name="HP" value="14" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Leader,Wrecker,Tank,Ranged" />
+<property name="Text" value="Bold 1, Tough 1. At the start of your turn -> You may do 1 damage to one of your Wreckers. If you do, do 2 damage to an enemy that has at least 10 damage. " />
+<alternate type="bot" name="Impactor - Unrelenting Veteran" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Leader,Wrecker,Ranged" />
+<property name="Text" value="Each of your damaged Wreckers has Bold 1 and Pierce 1. " />
+</alternate>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+
+<card id="bc063e1b-70ac-4235-bab0-2143e2b4a306" name="Overlord - Sadistic Phase Sixer" size="Large">
+<property name="Card Number" value="X:T04"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="14" />
+<property name="ATK" value="6" />
+<property name="HP" value="18" />
+<property name="DEF" value="3" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Tank,Plane,Ranged" />
+<property name="Text" value="Your deck can have up to 3 extra Stars of differently named cards with one or fewer battle icons. When you flip to this mode -> Reveal the top 5 cards of your deck. Put all cards with exactly 1 Star revealed this way into your hand and scrap the rest. " />
+<alternate type="bot" name="Overlord - Sadistic Phase Sixer" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Tank,Plane,Ranged" />
+<property name="Text" value="This gets +1 ATK for each character in a player's KO area. Bold 1, Focus 1. After you flip battle cards for this character's attack and before the defense flips -> You may play one of your flipped cards with exactly 1 Star. " />
+</alternate>
+<property name="Rarity" value="Super-Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="b164f5e3-8b21-4641-9934-f8c48017af71" name="Ransack - Hungry for Battle" size="Large">
+<property name="Card Number" value="X:T05"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="8" />
+<property name="ATK" value="3" />
+<property name="HP" value="12" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Insecticon,Specialist" />
+<property name="Text" value="Your deck can have up to 1 extra Star of cards for each other Insecticon on your starting team. When you flip to this mode -> Scrap an Upgrade from this. For each battle icon on the Upgrade scrapped this way, your opponent chooses one of their characters and does 1 damage to it. " />
+<alternate type="bot" name="Ransack - Hungry for Battle" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Insecticon,Melee" />
+<property name="Text" value="When this attacks -> Flip 1 more battle card for each Insecticon on your starting team. " />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="4ee0c9d7-037e-47b8-b045-974c36350816" name="Seaspray - Consummate Sailor" size="Large">
+<property name="Card Number" value="X:T06"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="6" />
+<property name="ATK" value="4" />
+<property name="HP" value="12" />
+<property name="DEF" value="0" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Boat,Specialist" />
+<property name="Text" value="This gets +1 DEF for each Boat on your starting team. When you flip to this mode -> Draw 2 cards. Then, scrap a card from your hand unless your starting team was only Boats. " />
+<alternate type="bot" name="Seaspray - Consummate Sailor" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="3" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Specialist" />
+<property name="Text" value="Pierce 2. Each character with the highest number of Stars on your team has +1 ATK. " />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="488d9c16-4f4b-4824-b26b-33774cb14404" name="Slipstream - Spy-for-Hire" size="Large">
+<property name="Card Number" value="X:T07"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="6" />
+<property name="ATK" value="3" />
+<property name="HP" value="11" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Planed,Ranged" />
+<property name="Text" value="When you flip to this mode -> Your opponent reveals a card at random from their hand. If it has two or more battle icons, scrap it. Otherwise, each of your Decepticons gets +1 ATK until end of turn. " />
+<alternate type="bot" name="Slipstream - Spy-for-Hire" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="4" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Ranged" />
+<property name="Text" value="Focus 1. When this attacks and your opponent has 1 or fewer cards in hand -> This gets +2 ATK until end of battle. " />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="1ddb58af-d32c-476f-afbc-d9a372e437a5" name="Snapdragon - Ruthless Combatant" size="Large">
+<property name="Card Number" value="X:T08"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="12" />
+<property name="ATK" value="7" />
+<property name="HP" value="16" />
+<property name="DEF" value="1" />
+<property name="Faction" value="Mercenary" />
+<property name="Traits" value="Beast,Melee" />
+<property name="Text" value="Sturdy, Tough 1. Other characters can't be repaired. Damage counters can't be moved from enemies to other characters. " />
+<alternate type="bot" name="Snapdragon - Ruthless Combatant" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="7" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Ranged" />
+<property name="Text" value="When your opponent draws 1 or more cards, if they've already drawn a card this turn -> Your opponent scraps a card from their hand. When this does enough attack damage to KO an enemy -> Use this card's Bounty ability. Bounty -> Choose Weapon, Armor, or Utility. Return all enemy Upgrades of the chosen type on the battlefield to their owner's hand. " />
+</alternate>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="ff7058fa-cff5-4dfe-a00f-cb705309688b" name="Starscream - Covetous Crony" size="Large">
+<property name="Card Number" value="X:T09"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="12" />
+<property name="ATK" value="5" />
+<property name="HP" value="15" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Decepticon" />
+<property name="Traits" value="Seeker,Plane,Ranged" />
+<property name="Text" value="When you flip to this mode -> Reveal the top 3 cards of your deck. Put each card revealed that has no battle icons into your hand. Scrap the rest. For each card scrapped, one of your Planes or Seekers gets Bold 1 until end of turn. " />
+<alternate type="bot" name="Starscream - Covetous Crony" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="6" />
+<property name="DEF" value="2" />
+<property name="Traits" value="Seeker,Ranged" />
+<property name="Text" value="When you flip to this mode -> Draw a card. Then, Plan 1. When one of your Seekers attacks and you flip at least one card with no battle icons -> Do 1 damage to each non-Seeker character. " />
+</alternate>
+<property name="Rarity" value="Rare" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="7c5992d9-6d9d-4000-a4e8-9339724a65a3" name="Wheeljack - Outsider" size="Large">
+<property name="Card Number" value="X:T10"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="9" />
+<property name="ATK" value="4" />
+<property name="HP" value="14" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Wrecker,Car,Specialist" />
+<property name="Text" value="While you have no other Cars on the battlefield -> This has Bold 2. When you flip to this mode -> Scrap the top card of your deck. Then, you may do 1 damage to one of your Wreckers to play that card. " />
+<alternate type="bot" name="Wheeljack - Outsider" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="5" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Wrecker,Specialist" />
+<property name="Text" value="While this is your only character on the battlefield -> He has +3 ATK and +1 DEF. " />
+</alternate>
+<property name="Rarity" value="Uncommon" />
+<property name="Draft Type" value="Large Character" />
+</card>
+<card id="17337c6c-e4dc-4318-b273-5e5d12b1c70e" name="Whirl - Lunatic Aerialist" size="Large">
+<property name="Card Number" value="X:T11"/>
+<property name="Type" value="Character - Alt Mode" />
+<property name="Stars" value="10" />
+<property name="ATK" value="5" />
+<property name="HP" value="14" />
+<property name="DEF" value="2" />
+<property name="Faction" value="Autobot" />
+<property name="Traits" value="Wrecker,Helicopter,Ranged" />
+<property name="Text" value="Pierce 3" />
+<alternate type="bot" name="Whirl - Lunatic Aerialist" size="Large">
+<property name="Type" value="Character - Bot Mode" />
+<property name="ATK" value="6" />
+<property name="DEF" value="1" />
+<property name="Traits" value="Wrecker,Specialist" />
+<property name="Text" value="When you flip to this mode -> Reveal the top 3 cards of your deck. Add an Upgrade revealed this way to your hand and scrap the rest. " />
+</alternate>
+<property name="Rarity" value="Common" />
+<property name="Draft Type" value="Large Character" />
 </card>
 
   </cards>
