@@ -648,7 +648,7 @@
 <property name="Faction" value="Decepticon" />
 <property name="Traits" value="Leader, Insecticon, Specialist" />
 <property name="Text" value=" When you flip to this mode -> Reveal the top 2 cards of your deck. For each orange revealed this way, your opponent chooses one of their characters and does 1 damage to it. For each blue flipped this way, repair 1 damage from one of your Insecticons. Then, scrap the cards revealed this way." />
-<alternate type="bot" name="" size="Large">
+<alternate type="bot" name="Venin - Paranoid Leader" size="Large">
 <property name="Type" value="Character - Bot Mode" />
 <property name="ATK" value="3" />
 <property name="DEF" value="1" />
