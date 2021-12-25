@@ -256,7 +256,7 @@
 <property name="HP" value="8" />
 <property name="DEF" value="1" />
 <property name="Faction" value="Autobot" />
-<property name="Traits" value="Spaceship" />
+<property name="Traits" value="Specialist" />
 <property name="Text" value=" Brave. If this would be KO'd by an opponent's card, and you began the game with an Autobot Stratagem -> Arise." />
 <alternate type="bot" name="Elita-1 Frontline Rebel" size="Large">
 <property name="Type" value="Character - Legend Mode" />
@@ -297,7 +297,7 @@
 <property name="Stars" value="1" />
 <property name="Faction" value="Autobot" />
 <property name="HP" value="1" />
-<property name="Traits" value="Leader,Spaceship,Ranged" />
+<property name="Traits" value="" />
 <property name="Text" value="+ 1 [HEALTH], + 1 Pierce" />
 <alternate type="bot" name="Autobot Xort" size="Large">
 <property name="Type" value="Character - Bot Mode" />
@@ -604,13 +604,13 @@
 <property name="HP" value="9" />
 <property name="DEF" value="1" />
 <property name="Faction" value="Decepticon" />
-<property name="Traits" value="Seeker, Ranged" />
+<property name="Traits" value="Seeker,Plane,Ranged" />
 <property name="Text" value="Your starting star limit increases by 1 for each Seeker that has at least 10* on your starting team. Bold 1 " />
 <alternate type="bot" name="Skywarp - Troublesome Teleporter" size="Large">
 <property name="Type" value="Character - Bot Mode" />
 <property name="ATK" value="4" />
 <property name="DEF" value="2" />
-<property name="Traits" value="Ranged" />
+<property name="Traits" value="Seeker,Ranged" />
 <property name="Text" value="Revenge -> Move up to 1 damage from each of your Seekers on the battlefield to an enemy." />
 </alternate>
 <property name="Rarity" value="Uncommon" />
