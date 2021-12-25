@@ -414,7 +414,7 @@
 <property name="Faction" value="Decepticon" />
 <property name="Traits" value="Herald, Leader, Ranged" />
 <property name="Text" value="Pierce 4 At the start of your turn -> You may reveal a white battle icon card from your hand and scrap it. If you do, draw 2 cards. " />
-<alternate type="bot" name="Galvatron - Callou Tyrant" size="Large">
+<alternate type="bot" name="Galvatron - Callous Tyrant" size="Large">
 <property name="Type" value="Character - Bot Mode" />
 <property name="ATK" value="5" />
 <property name="DEF" value="2" />
