@@ -201,6 +201,7 @@
 <card id="3ec90a88-a840-472c-a4e4-7f86947a4d5a" name="Seek And Destroy" size="Small">
 <property name="Card Number" value="X:13"/>
 <property name="Type" value="Action" />
+<property name="Faction" value="Decepticon" />
 <property name="White Pips" value="1" />
 <property name="Green Pips" value="1" />
 <property name="Text" value="Whiles this is in your hand -> When a Decepticon card would cause this card to be scrapped from your hand, instead put it into your KO area and do 1 damage to an enemy. Each Decepticon on your team gets +1 attack, bold 1, and pierce 1 until end of turn. "/>
@@ -369,6 +370,7 @@
 <property name="ATK" value="6" />
 <property name="HP" value="18" />
 <property name="DEF" value="2" />
+<property name="Faction" value="Autobot" />
 <property name="Traits" value="Seeker, Leader, Ranged" />
 <property name="Text" value="At the start of your turn -> You may play an Upgrade from your hand on one of your Autobots. When this attacks -> Do 1 damage to each enemy and draw a card." />
 </alternate>
