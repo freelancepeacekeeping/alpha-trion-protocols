@@ -1,3 +1,8 @@
+# ARCHIVED
+This project is archived in favour of https://teletraan1.net/octgn
+
+---
+
 OCTGN files for the Alpha Trion Protocols custom cards for Transformers TCG.
 
 See the Releases section for the latest files.
